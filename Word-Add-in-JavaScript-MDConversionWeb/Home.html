@@ -1,0 +1,75 @@
+﻿<!--Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license.
+    See LICENSE in the project root for license information.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Word Add-In Markdown Conversion</title>
+
+    <!-- office.js should load in the <head> section because it must initialize within 5 seconds. 
+        In this sample add-in, the function that is assigned to Office.initialize (in home.js) has
+        dependencies on jQuery and Fabric, so they must be loaded ahead of it. 
+    -->
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.1.min.js"></script>
+    <script src="https://appsforoffice.microsoft.com/fabric/2.1.0/jquery.fabric.min.js"></script>
+    <script src="Scripts/FabricUI/message.banner.js" type="text/javascript"></script>
+
+    <!-- Change the "beta" in the next line when the Word 1.3 APIs release. -->
+    <script src="https://appsforoffice.microsoft.com/lib/beta/hosted/office.js" type="text/javascript"></script>
+
+    <!-- For the Office UI Fabric, go to http://aka.ms/office-ui-fabric to learn more. -->
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.min.css">
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.components.min.css">
+    <link href="Content/message.banner.css" rel="stylesheet" type="text/css" /> 
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="ms-font-l">
+    <div class="ms-navigation__header"></div>
+    <!-- Message banner -->
+    <div class="ms-MessageBanner">
+        <div class="ms-MessageBanner-content">
+            <div class="ms-MessageBanner-text">
+                <div class="ms-MessageBanner-clipper">
+                    <span class="ms-font-m ms-fontWeight-semilight" id="notificationBody"></span>
+                </div>
+            </div>
+            <button class="ms-MessageBanner-expand"> <i class="ms-Icon ms-Icon--chevronsDown"></i> </button>
+        </div>
+        <button class="ms-MessageBanner-close"> <i class="ms-Icon ms-Icon--x"></i> </button>
+    </div>
+    <div class="ms-navigation__content">
+        <div class="ms-font-xl ms-navigation__content__title">
+            Convert from Word to Markdown
+        </div>
+        <div class="padding">
+            <button id="insert-test-Word-doc" class="ms-Button ms-Button--primary">
+                <span class="ms-Button-label">Insert test Word document</span>
+            </button>
+        </div>
+        <button id="convert-to-markdown" class="ms-Button ms-Button--primary">
+            <span class="ms-Button-label">Convert document to Markdown</span>
+        </button>
+        <div class="ms-font-xl ms-navigation__content__title">Convert from Markdown to Word</div>
+        <div class="padding">
+            <button id="insert-test-MD-doc" class="ms-Button ms-Button--primary">
+                <span class="ms-Button-label">Insert test Markdown document</span>
+            </button>
+        </div>
+        <button id="convert-to-word" class="ms-Button ms-Button--primary">
+            <span class="ms-Button-label">Convert document to Word</span>
+        </button>
+    </div>
+    <footer class="ms-landing-page__footer  ms-bgColor-themePrimary">
+        <div class="ms-landing-page__footer--left">
+            <img src="./Images/logo-filled.png" />
+            <h1 class="ms-font-xl ms-fontWeight-semilight ms-fontColor-white">Word &#8644; Markdown</h1>
+        </div>
+    </footer>
+
+    <script src="SampleContent.js" type="text/javascript"></script>
+    <script src="Home.js" type="text/javascript"></script>
+</body>
+</html>
