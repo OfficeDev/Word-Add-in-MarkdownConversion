@@ -75,7 +75,7 @@
                     queueCreationOfWordTables(sharedDataObjects.paragraphs);
 
                     // Now that the table data is moved into a Word tables, delete the
-                    // paragraphs that comprise the original MD tables. But to cope
+                    // paragraphs that comprise the original MD tables. But to cope with
                     // a quirk in paragraph deletion the paragraphs collection must be 
                     // reloaded before we can accurately delete any paragraphs.
                     sharedDataObjects.paragraphs = context.document.body.paragraphs.load('text');
@@ -98,8 +98,8 @@
                     // the Word tables are created.
                     // Find and load all bold and hypertext ranges. (Italic ranges have to wait. See below
                     // for why.)
-                    sharedDataObjects.mdHyperlinkRanges = queueFetchOfInlineRanges('Hyperlink', context).load('text');
-                    sharedDataObjects.mdBoldRanges = queueFetchOfInlineRanges('Bold', context).load('text');
+                    sharedDataObjects.mdHyperlinkRanges = queueFetchOfInlineRanges('hyperlink', context).load('text');
+                    sharedDataObjects.mdBoldRanges = queueFetchOfInlineRanges('bold', context).load('text');
                 })
                 .then(context.sync)
                 .then(function () {
@@ -114,7 +114,7 @@
                 })
                 .then(context.sync)
                 .then(function () {
-                    sharedDataObjects.candidateMDItalicRanges = queueFetchOfInlineRanges('Italic', context).load('text');
+                    sharedDataObjects.candidateMDItalicRanges = queueFetchOfInlineRanges('italic', context).load('text');
                 })
                 .then(context.sync)
                 .then(function () {
@@ -416,15 +416,15 @@
             // A Word wildcard expressions is like a RegEx, but to escape a character
             // wrap it in "[]" instead of preceding it with "\".
             switch (type) {
-                case 'Hyperlink':
+                case 'hyperlink':
                     // Markdown hyperlinks have the pattern [link lable](URL).
                     searchWildcardExpression = '[[]*[]][(]*[)]';
                     break;
-                case 'Bold':
+                case 'bold':
                     // Markdown bold strings have the pattern **bold text here**.
                     searchWildcardExpression = '[*][*]*[*][*]';
                     break;
-                case 'Italic':
+                case 'italic':
                     // Markdown italic strings have the pattern *italic text here*.
                     searchWildcardExpression = '[*]<*>[*]';
                     break;
