@@ -2,7 +2,7 @@
 
 Markdown ドキュメントを編集用に Word に変換した後、Paragraph、Table、List、および Range の各オブジェクトを使用して再び Markdown 形式に変換するには、Word.js API を使用します。
 
-![Word と Markdown 間の変換](readme_art/ReadMeScreenshot.PNG)
+![Word と Markdown 間の変換](../readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>目次
 * [変更履歴](#change-history)

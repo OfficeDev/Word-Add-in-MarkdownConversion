@@ -2,7 +2,7 @@
 
 使用 Word.js Api 將 Markdown 文件轉換成 Word 來進行編輯，然後再使用 Paragraph、Table、List 和 Range物件，將 Word 文件轉換回 Markdown 格式。
 
-![在 Word 和 Markdown 間轉換](readme_art/ReadMeScreenshot.PNG)
+![在 Word 和 Markdown 間轉換](../readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>目錄
 * [變更歷程記錄](#change-history)

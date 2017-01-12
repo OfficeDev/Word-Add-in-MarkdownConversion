@@ -2,7 +2,7 @@
 
 Utilisez les API Word.js pour convertir un document Markdown en Word afin de le modifier, puis pour convertir le document Word au format Markdown, en utilisant les objets Paragraphe, Tableau, Liste et Plage.
 
-![Conversion entre Word et Markdown](readme_art/ReadMeScreenshot.PNG)
+![Conversion entre Word et Markdown](../readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>Sommaire
 * [Historique des modifications](#change-history)
