@@ -2,7 +2,7 @@
 
 Utilisez les API Word.js pour convertir un document Markdown en Word afin de le modifier, puis pour convertir le document Word au format Markdown, en utilisant les objets Paragraphe, Tableau, Liste et Plage.
 
-![Conversion entre Word et Markdown](../readme_art/ReadMeScreenshot.PNG)
+![Conversion entre Word et Markdown](readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>Sommaire
 * [Historique des modifications](#change-history)
@@ -40,7 +40,8 @@ Utilisez les API Word.js pour convertir un document Markdown en Word afin de le 
 ## <a name="known-issues"></a>Problèmes connus
 
 - En raison d’un bogue lors de la création des listes Word créées par programme, la conversion du format Markdown en Word fonctionnera correctement uniquement pour la première liste (ou parfois les deux premières listes) dans un document. (De nombreuses listes Markdown seront converties correctement en Word.)
-- Si vous convertissez le même document à plusieurs reprises entre Word et Markdown, toutes les lignes des tableaux adopteront la mise en forme de la ligne d’en-tête, qui comprend généralement du texte en gras.
+- Si vous convertissez le même document à plusieurs reprises entre Word et Markdown, dans un sens et dans l’autre, toutes les lignes des tableaux adopteront la mise en forme de la ligne d’en-tête, qui comprend généralement du texte en gras.
+- Le complément utilise des API Office qui ne sont pas encore prises en charge dans Word Online (à compter du 15/02/2017). Vous devez le tester dans l’application de bureau Word (qui s’ouvre automatiquement lorsque vous appuyez sur F5).
 
 ## <a name="questions-and-comments"></a>Questions et commentaires
 
@@ -50,7 +51,7 @@ Les questions générales sur le développement de Microsoft Office 365 doivent
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-* [Documentation de complément Office](https://msdn.microsoft.com/fr-fr/library/office/jj220060.aspx)
+* [Documentation de complément Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Centre de développement Office](http://dev.office.com/)
 * Plus d’exemples de complément Office sur [OfficeDev sur Github](https://github.com/officedev)
 

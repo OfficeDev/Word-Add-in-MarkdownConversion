@@ -2,7 +2,7 @@
 
 Verwenden Sie die Word.js-APIs, um ein Markdown-Dokument in Word zu konvertieren, und konvertieren Sie dann das Word-Dokument mithilfe der Paragraph-, Table, List- und Range-Objekte zurück in das Markdown-Format.
 
-![Konvertierung zwischen Word und Markdown](../readme_art/ReadMeScreenshot.PNG)
+![Konvertierung zwischen Word und Markdown](readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>Inhalt
 * [Änderungsverlauf](#change-history)
@@ -40,7 +40,8 @@ Verwenden Sie die Word.js-APIs, um ein Markdown-Dokument in Word zu konvertieren
 ## <a name="known-issues"></a>Bekannte Probleme
 
 - Aufgrund eines Fehlers in der Art und Weise, wie programmgesteuert erstellte Word-Listen erstellt werden, wird mit Markdown-to-Word nur die erste Liste (oder manchmal die beiden ersten Listen) in einem Dokument korrekt konvertiert. (Eine beliebige Anzahl von Markdown-Listen wird korrekt in Word konvertiert.)
-- Wenn Sie dasselbe Dokument wiederholt zwischen Word und Markdown konvertieren, verwenden alle Zeilen in der Tabelle die Formatierung der Kopfzeile, die in der Regel fett formatierten Text enthält.
+- Wenn Sie dasselbe Dokument wiederholt zwischen Word und Markdown hin und her konvertieren, verwenden alle Zeilen in der Tabelle die Formatierung der Kopfzeile, die in der Regel fett formatierten Text enthält.
+- Das Add-In verwendet einige Office-APIs, die in Word Online noch nicht unterstützt werden (Stand 15.02.2017). Sie sollten es in der Word-Desktopanwendung testen (die automatisch geöffnet wird, wenn Sie F5 drücken).
 
 ## <a name="questions-and-comments"></a>Fragen und Kommentare
 
@@ -50,7 +51,7 @@ Fragen zur Microsoft Office 365-Entwicklung sollten in [Stack Overflow](http://s
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
 
-* [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/de-de/library/office/jj220060.aspx)
+* [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office Dev Center](http://dev.office.com/)
 * Weitere Office-Add-In-Beispiele unter [OfficeDev auf Github](https://github.com/officedev)
 

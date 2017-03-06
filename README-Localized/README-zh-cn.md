@@ -2,7 +2,7 @@
 
 使用 Word.js API 将 Markdown 文档转换成 Word 格式以供编辑，然后使用 Paragraph、Table、List 和 Range 对象将 Word 文档转换回 Markdown 格式。
 
-![转换 Word 和 Markdown 格式](../readme_art/ReadMeScreenshot.PNG)
+![转换 Word 和 Markdown 格式](readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>目录
 * [修订记录](#change-history)
@@ -40,7 +40,8 @@
 ## <a name="known-issues"></a>已知问题
 
 - 由于以编程方式创建的 Word 列表的创建方式有 bug，因此在转换 Markdown 和 Word 格式时，只能正确转换文档中的第一个列表（或有时为前两个列表）。（所有 Markdown 列表都会正确转换成 Word 格式。）
-- 如果对同一文档重复转换 Markdown 和 Word 格式，表中的所有行都会采用标题行格式，这通常包括粗体文本。
+- 如果对同一文档重复来回转换 Word 和 Markdown 格式，表中的所有行都会采用标题行格式，这通常包括粗体文本。
+- 外接程序会使用 Word Online 尚不支持的部分 Office API（截至 2017 年 2 月 15 日）。应在桌面 Word 中对其进行测试（在按 F5 时它将自动打开。
 
 ## <a name="questions-and-comments"></a>问题和意见
 
@@ -50,7 +51,7 @@
 
 ## <a name="additional-resources"></a>其他资源
 
-* [Office 外接程序文档](https://msdn.microsoft.com/zh-cn/library/office/jj220060.aspx)
+* [Office 外接程序文档](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office 开发人员中心](http://dev.office.com/)
 * 有关更多 Office 外接程序示例，请访问 [Github 上的 OfficeDev](https://github.com/officedev)。
 

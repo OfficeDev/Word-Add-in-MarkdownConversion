@@ -2,7 +2,7 @@
 
 Markdown ドキュメントを編集用に Word に変換した後、Paragraph、Table、List、および Range の各オブジェクトを使用して再び Markdown 形式に変換するには、Word.js API を使用します。
 
-![Word と Markdown 間の変換](../readme_art/ReadMeScreenshot.PNG)
+![Word と Markdown 間の変換](readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>目次
 * [変更履歴](#change-history)
@@ -40,17 +40,18 @@ Markdown ドキュメントを編集用に Word に変換した後、Paragraph�
 ## <a name="known-issues"></a>既知の問題
 
 - プログラムによって作成される Word のリストの作成方法にバグがあるため、Markdown から Word への変換は、文書内の最初のリスト (または最初の 2 つのリストの場合もあります) のみが正しく行われます。(任意の数の Markdown リストは正しく Word に変換されます。)
-- Word と Markdown 間で繰り返し同じ文書を変換する場合は、表内のすべての行はヘッダー行の形式に従います。通常は太字も含まれます。
+- Word と Markdown 間で繰り返し同じ文書を変換したり、元に戻したりする場合、表内のすべての行はヘッダー行の形式に従います。通常は太字も含まれます。
+- アドインは、2017 年 2 月 15 日現在、Word Online でサポートされていないいくつかの Office API を使用します。デスクトップ用の Word (F5 キーを押すと自動的に開きます) でテストすることをお勧めします。
 
 ## <a name="questions-and-comments"></a>質問とコメント
 
 このサンプルに関するフィードバックをお寄せください。このリポジトリの「*問題*」セクションでフィードバックを送信できます。
 
-Microsoft Office 365 開発全般の質問につきましては、「[スタック オーバーフロー](http://stackoverflow.com/questions/tagged/office-js+API)」に投稿してください。Office JavaScript API に関する質問の場合は、必ず質問に [office-js] と [API] のタグを付けてください。
+Microsoft Office 365 開発全般の質問につきましては、「[Stack Overflow](http://stackoverflow.com/questions/tagged/office-js+API)」に投稿してください。Office JavaScript API に関する質問の場合は、必ず質問に [office-js] と [API] のタグを付けてください。
 
 ## <a name="additional-resources"></a>追加リソース
 
-* [Office アドインのドキュメント](https://msdn.microsoft.com/ja-jp/library/office/jj220060.aspx)
+* [Office アドインのドキュメント](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office デベロッパー センター](http://dev.office.com/)
 * [Github の OfficeDev](https://github.com/officedev) にあるその他の Office アドイン サンプル
 

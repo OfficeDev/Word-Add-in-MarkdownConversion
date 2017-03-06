@@ -2,7 +2,7 @@
 
 使用 Word.js Api 將 Markdown 文件轉換成 Word 來進行編輯，然後再使用 Paragraph、Table、List 和 Range物件，將 Word 文件轉換回 Markdown 格式。
 
-![在 Word 和 Markdown 間轉換](../readme_art/ReadMeScreenshot.PNG)
+![在 Word 和 Markdown 間轉換](readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>目錄
 * [變更歷程記錄](#change-history)
@@ -40,17 +40,18 @@
 ## <a name="known-issues"></a>已知問題
 
 - 因為 programmatically-created Word 清單建立方式的問題，Markdown-to-Word 只會順利轉換文件中的第一個清單 (有時候為前兩個清單)。(所有 Markdown 清單將會順利轉換為 Word。)
-- 如果您在 Word 和 Markdown 之間重複轉換相同文件時，資料表中所有資料列將會採用標題列的格式 (通常包含粗體文字)。
+- 如果您在 Word 和 Markdown 之間來回重複轉換相同文件時，資料表中所有資料列將會採用標題列的格式 (通常包含粗體文字)。
+- 增益集會使用 Word Online 中尚未支援的某些 Office API (至 2017 年 2 月 15 日為止)。您應該在桌面的 Word 進行測試 (當您按下 F5 時會自動開啟)。
 
 ## <a name="questions-and-comments"></a>問題和建議
 
-我們很樂於收到您對於此範例的意見反應。您可以在此儲存機制的 **[問題]** 區段中，將您的意見反應傳送給我們。
+我們很樂於收到您對於此範例的意見反應。您可以在此儲存機制的 *[問題]* 區段中，將您的意見反應傳送給我們。
 
 請在 [Stack Overflow](http://stackoverflow.com/questions/tagged/office-js+API) 提出有關 Microsoft Office 365 開發的一般問題。如果您的問題是關於 Office JavaScript API，請確定您的問題標記有 [office js] 與 [API]。
 
 ## <a name="additional-resources"></a>其他資源
 
-* [Office 增益集文件](https://msdn.microsoft.com/zh-tw/library/office/jj220060.aspx)
+* [Office 增益集文件](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office 開發人員中心](http://dev.office.com/)
 * 在 [Github 上的 OfficeDev](https://github.com/officedev) 中有更多 Office 增益集範例
 

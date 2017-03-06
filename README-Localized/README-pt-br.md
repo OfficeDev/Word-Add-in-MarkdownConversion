@@ -2,7 +2,7 @@
 
 Use as APIs do Word.js para converter um documento Markdown para o Word para edição e converta o documento do Word para o formato Markdown usando os objetos Paragraph, Table, List e Range.
 
-![Converter entre Word e Markdown](../readme_art/ReadMeScreenshot.PNG)
+![Converter entre Word e Markdown](readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>Sumário
 * [Histórico de alterações](#change-history)
@@ -40,17 +40,18 @@ Use as APIs do Word.js para converter um documento Markdown para o Word para edi
 ## <a name="known-issues"></a>Problemas conhecidos
 
 - Devido a um bug na maneira que as listas do Word criadas por programação são criadas, o Markdown para Word só converterá corretamente a primeira lista (ou às vezes as duas primeiras listas) em um documento. (Qualquer número de listas do Markdown será convertido corretamente para o Word.)
-- Se você converter o mesmo documento repetidamente entre Word e o Markdown, todas as linhas nas tabelas assumirão a formatação da linha de cabeçalho, que geralmente inclui texto em negrito.
+- Quando você converte o mesmo documento repetidamente entre o Word e o Markdown, todas as linhas das tabelas assumem a formatação da linha de cabeçalho, que geralmente inclui texto em negrito.
+- O suplemento usa algumas APIs do Office que ainda não têm suporte no Word Online (desde 15/02/2017). Você deve testá-lo no Word para área de trabalho (pressione F5 para abri-lo automaticamente).
 
 ## <a name="questions-and-comments"></a>Perguntas e comentários
 
-Gostaríamos de saber sua opinião sobre este exemplo. Você pode nos enviar comentários na seção *Problemas* deste repositório.
+Gostaríamos de saber sua opinião sobre este exemplo. Você pode nos enviar comentários na seção *Issues* deste repositório.
 
 As perguntas sobre o desenvolvimento do Microsoft Office 365 em geral devem ser postadas no [Stack Overflow](http://stackoverflow.com/questions/tagged/office-js+API). Se sua pergunta estiver relacionada às APIs JavaScript para Office, não deixe de marcá-la com as tags [office-js] e [API].
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-* [Documentação dos suplementos do Office](https://msdn.microsoft.com/pt-br/library/office/jj220060.aspx)
+* [Documentação dos suplementos do Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Centro de Desenvolvimento do Office](http://dev.office.com/)
 * Confira outros exemplos de Suplemento do Office em [OfficeDev no Github](https://github.com/officedev)
 
