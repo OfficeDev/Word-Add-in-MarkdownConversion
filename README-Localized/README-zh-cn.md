@@ -1,8 +1,8 @@
-# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>直接转换 Word 和 Markdown 格式的 Office 外接程序
+﻿# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>直接转换 Word 和 Markdown 格式的 Office 外接程序
 
 使用 Word.js API 将 Markdown 文档转换成 Word 格式以供编辑，然后使用 Paragraph、Table、List 和 Range 对象将 Word 文档转换回 Markdown 格式。
 
-![转换 Word 和 Markdown 格式](readme_art/ReadMeScreenshot.PNG)
+![转换 Word 和 Markdown 格式](../readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>目录
 * [修订记录](#change-history)

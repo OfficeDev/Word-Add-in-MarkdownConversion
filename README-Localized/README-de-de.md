@@ -1,8 +1,8 @@
-# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>Office-Add-in, das eine direkt Konvertierung zwischen Word- und Markdown-Formaten durchführt
+﻿# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>Office-Add-in, das eine direkt Konvertierung zwischen Word- und Markdown-Formaten durchführt
 
 Verwenden Sie die Word.js-APIs, um ein Markdown-Dokument in Word zu konvertieren, und konvertieren Sie dann das Word-Dokument mithilfe der Paragraph-, Table, List- und Range-Objekte zurück in das Markdown-Format.
 
-![Konvertierung zwischen Word und Markdown](readme_art/ReadMeScreenshot.PNG)
+![Konvertierung zwischen Word und Markdown](../readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>Inhalt
 * [Änderungsverlauf](#change-history)
