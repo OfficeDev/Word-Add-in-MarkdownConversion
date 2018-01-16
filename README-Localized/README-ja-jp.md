@@ -47,14 +47,18 @@ Markdown ドキュメントを編集用に Word に変換した後、Paragraph�
 
 このサンプルに関するフィードバックをお寄せください。このリポジトリの「*問題*」セクションでフィードバックを送信できます。
 
-Microsoft Office 365 開発全般の質問につきましては、「[Stack Overflow](http://stackoverflow.com/questions/tagged/office-js+API)」に投稿してください。Office JavaScript API に関する質問の場合は、必ず質問に [office-js] と [API] のタグを付けてください。
+Microsoft Office 365 開発全般の質問につきましては、「[スタック オーバーフロー](http://stackoverflow.com/questions/tagged/office-js+API)」に投稿してください。Office JavaScript API に関する質問の場合は、必ず質問に [office-js] と [API] のタグを付けてください。
 
 ## <a name="additional-resources"></a>追加リソース
 
-* [Office アドインのドキュメント](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* 
+  [Office アドインのドキュメント](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office デベロッパー センター](http://dev.office.com/)
 * [Github の OfficeDev](https://github.com/officedev) にあるその他の Office アドイン サンプル
 
 ## <a name="copyright"></a>著作権
-Copyright (c) 2016 Microsoft Corporation. All rights reserved.
+Copyright (c) 2016 Microsoft Corporation.All rights reserved.
 
+
+
+このプロジェクトでは、[Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) が採用されています。詳細については、「[Code of Conduct の FAQ](https://opensource.microsoft.com/codeofconduct/faq/)」を参照してください。また、その他の質問やコメントがあれば、[opencode@microsoft.com](mailto:opencode@microsoft.com) までお問い合わせください。

@@ -51,10 +51,14 @@ Fragen zur Microsoft Office 365-Entwicklung sollten in [Stack Overflow](http://s
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
 
-* [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* 
+  [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office Dev Center](http://dev.office.com/)
 * Weitere Office-Add-In-Beispiele unter [OfficeDev auf Github](https://github.com/officedev)
 
 ## <a name="copyright"></a>Copyright
 Copyright (c) 2016 Microsoft Corporation. Alle Rechte vorbehalten.
 
+
+
+In diesem Projekt wurden die [Microsoft Open Source-Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/) übernommen. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/faq/), oder richten Sie Ihre Fragen oder Kommentare an [opencode@microsoft.com](mailto:opencode@microsoft.com).

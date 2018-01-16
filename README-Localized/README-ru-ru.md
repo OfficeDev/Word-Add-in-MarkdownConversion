@@ -51,10 +51,14 @@
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-* [Документация по надстройкам Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* 
+  [Документация по надстройкам Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Центр разработки для Office](http://dev.office.com/)
 * Другие примеры надстроек Office см. на странице [OfficeDev на Github](https://github.com/officedev).
 
 ## <a name="copyright"></a>Авторское право
-© Корпорация Майкрософт (Microsoft Corporation), 2016 г. Все права защищены.
+© Корпорация Майкрософт (Microsoft Corporation), 2016. Все права защищены.
 
+
+
+Этот проект соответствует [правилам поведения Майкрософт, касающимся обращения с открытым кодом](https://opensource.microsoft.com/codeofconduct/). Дополнительную информацию см. в разделе [часто задаваемых вопросов по правилам поведения](https://opensource.microsoft.com/codeofconduct/faq/). Если у вас возникли вопросы или замечания, напишите нам по адресу [opencode@microsoft.com](mailto:opencode@microsoft.com).
