@@ -1,8 +1,8 @@
-# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>Complemento de Office que convierte directamente del formato de Word a Markdown y viceversa
+﻿# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>Complemento de Office que convierte directamente del formato de Word a Markdown y viceversa
 
 Use las API Word.js para convertir un documento Markdown a Word para la edición y, a continuación, convertir el documento de Word de nuevo al formato Markdown mediante los objetos Párrafo, Tabla, Lista e Intervalo.
 
-![Convertir de Word a Markdown y viceversa](readme_art/ReadMeScreenshot.PNG)
+![Convertir de Word a Markdown y viceversa](../readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>Tabla de contenido
 * [Historial de cambios](#change-history)
@@ -47,14 +47,18 @@ Use las API Word.js para convertir un documento Markdown a Word para la edición
 
 Nos encantaría recibir sus comentarios sobre este ejemplo. Puede enviarnos comentarios a través de la sección *Problemas* de este repositorio.
 
-Las preguntas generales sobre el desarrollo de Microsoft Office 365 deben publicarse en [Stack Overflow](http://stackoverflow.com/questions/tagged/office-js+API). Si su pregunta trata sobre las API de JavaScript para Office, asegúrese de que su pregunta se etiqueta con [office-js] y [API].
+Las preguntas generales sobre el desarrollo de Microsoft Office 365 deben publicarse en [Desbordamiento de pila](http://stackoverflow.com/questions/tagged/office-js+API). Si su pregunta trata sobre las API de JavaScript para Office, asegúrese de que su pregunta se etiqueta con [office-js] y [API].
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-* [Documentación de complementos de Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* 
+  [Documentación de complementos de Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Centro de desarrollo de Office](http://dev.office.com/)
 * Más ejemplos de complementos de Office en [OfficeDev en GitHub](https://github.com/officedev)
 
 ## <a name="copyright"></a>Copyright
 Copyright (c) 2016 Microsoft Corporation. Todos los derechos reservados.
 
+
+
+Este proyecto ha adoptado el [Código de conducta de código abierto de Microsoft](https://opensource.microsoft.com/codeofconduct/). Para obtener más información, consulte las [preguntas más frecuentes sobre el Código de conducta](https://opensource.microsoft.com/codeofconduct/faq/) o póngase en contacto con [opencode@microsoft.com](mailto:opencode@microsoft.com) si tiene otras preguntas o comentarios.

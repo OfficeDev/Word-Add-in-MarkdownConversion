@@ -1,8 +1,8 @@
-# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>Suplemento do Office que converte diretamente entre os formatos Word e Markdown
+﻿# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>Suplemento do Office que converte diretamente entre os formatos Word e Markdown
 
 Use as APIs do Word.js para converter um documento Markdown para o Word para edição e converta o documento do Word para o formato Markdown usando os objetos Paragraph, Table, List e Range.
 
-![Converter entre Word e Markdown](readme_art/ReadMeScreenshot.PNG)
+![Converter entre Word e Markdown](../readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>Sumário
 * [Histórico de alterações](#change-history)
@@ -51,10 +51,14 @@ As perguntas sobre o desenvolvimento do Microsoft Office 365 em geral devem ser 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-* [Documentação dos suplementos do Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* 
+  [Documentação dos suplementos do Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Centro de Desenvolvimento do Office](http://dev.office.com/)
 * Confira outros exemplos de Suplemento do Office em [OfficeDev no Github](https://github.com/officedev)
 
-## <a name="copyright"></a>Direitos autorais
-Copyright (C) 2016 Microsoft Corporation. Todos os direitos reservados.
+## <a name="copyright"></a>Copyright
+Copyright (c) 2016 Microsoft Corporation. Todos os direitos reservados.
 
+
+
+Este projeto adotou o [Código de Conduta de Software Livre da Microsoft](https://opensource.microsoft.com/codeofconduct/). Para saber mais, confira as [Perguntas frequentes sobre o Código de Conduta](https://opensource.microsoft.com/codeofconduct/faq/) ou contate [opencode@microsoft.com](mailto:opencode@microsoft.com) se tiver outras dúvidas ou comentários.

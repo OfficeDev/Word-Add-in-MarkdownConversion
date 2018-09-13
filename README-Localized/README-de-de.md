@@ -1,8 +1,8 @@
-# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>Office-Add-in, das eine direkt Konvertierung zwischen Word- und Markdown-Formaten durchführt
+﻿# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>Office-Add-in, das eine direkt Konvertierung zwischen Word- und Markdown-Formaten durchführt
 
 Verwenden Sie die Word.js-APIs, um ein Markdown-Dokument in Word zu konvertieren, und konvertieren Sie dann das Word-Dokument mithilfe der Paragraph-, Table, List- und Range-Objekte zurück in das Markdown-Format.
 
-![Konvertierung zwischen Word und Markdown](readme_art/ReadMeScreenshot.PNG)
+![Konvertierung zwischen Word und Markdown](../readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>Inhalt
 * [Änderungsverlauf](#change-history)
@@ -51,10 +51,14 @@ Fragen zur Microsoft Office 365-Entwicklung sollten in [Stack Overflow](http://s
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
 
-* [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* 
+  [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office Dev Center](http://dev.office.com/)
 * Weitere Office-Add-In-Beispiele unter [OfficeDev auf Github](https://github.com/officedev)
 
 ## <a name="copyright"></a>Copyright
 Copyright (c) 2016 Microsoft Corporation. Alle Rechte vorbehalten.
 
+
+
+In diesem Projekt wurden die [Microsoft Open Source-Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/) übernommen. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/faq/), oder richten Sie Ihre Fragen oder Kommentare an [opencode@microsoft.com](mailto:opencode@microsoft.com).

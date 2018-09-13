@@ -1,8 +1,8 @@
-# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>直接转换 Word 和 Markdown 格式的 Office 外接程序
+﻿# <a name="office-add-in-that-converts-directly-between-word-and-markdown-formats"></a>直接转换 Word 和 Markdown 格式的 Office 外接程序
 
 使用 Word.js API 将 Markdown 文档转换成 Word 格式以供编辑，然后使用 Paragraph、Table、List 和 Range 对象将 Word 文档转换回 Markdown 格式。
 
-![转换 Word 和 Markdown 格式](readme_art/ReadMeScreenshot.PNG)
+![转换 Word 和 Markdown 格式](../readme_art/ReadMeScreenshot.PNG)
 
 ## <a name="table-of-contents"></a>目录
 * [修订记录](#change-history)
@@ -51,10 +51,14 @@
 
 ## <a name="additional-resources"></a>其他资源
 
-* [Office 外接程序文档](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* 
+  [Office 外接程序文档](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office 开发人员中心](http://dev.office.com/)
 * 有关更多 Office 外接程序示例，请访问 [Github 上的 OfficeDev](https://github.com/officedev)。
 
 ## <a name="copyright"></a>版权
-版权所有 © 2016 Microsoft Corporation。保留所有权利。
+版权所有 (c) 2016 Microsoft Corporation。保留所有权利。
 
+
+
+此项目已采用 [Microsoft 开放源代码行为准则](https://opensource.microsoft.com/codeofconduct/)。有关详细信息，请参阅[行为准则 FAQ](https://opensource.microsoft.com/codeofconduct/faq/)。如有其他任何问题或意见，也可联系 [opencode@microsoft.com](mailto:opencode@microsoft.com)。
