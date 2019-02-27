@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Word
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 12/13/2016 12:41:31 PM
+---
 # Office Add-in that converts directly between Word and Markdown formats
 
 Use the Word.js APIs to convert a Markdown document to Word for editing and then convert the Word document back to Markdown format, using the Paragraph, Table, List, and Range objects.
