@@ -1,18 +1,6 @@
----
-page_type: sample
-products:
-- office-word
-- office-365
-languages:
-- javascript
-extensions:
-  contentType: samples
-  technologies:
-  - Add-ins
-  createdDate: 12/13/2016 12:41:31 PM
----
-# Office Add-in that converts directly between Word and Markdown formats
+# [ARCHIVED] Office Add-in that converts directly between Word and Markdown formats
 
+**Note:** This repo is archived and no longer actively maintained. Security vulnerabilities may exist in the project, or its dependencies. If you plan to reuse or run any code from this repo, be sure to perform appropriate security checks on the code or dependencies first. Do not use this project as the starting point of a production Office Add-in. Always start your production code by using the Office/SharePoint development workload in Visual Studio, or the [Yeoman generator for Office Add-ins](https://github.com/OfficeDev/generator-office), and follow security best practices as you develop the add-in. 
 Use the Word.js APIs to convert a Markdown document to Word for editing and then convert the Word document back to Markdown format, using the Paragraph, Table, List, and Range objects.
 
 ![Convert between Word and Markdown](readme_art/ReadMeScreenshot.PNG)
